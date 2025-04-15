@@ -1,3 +1,75 @@
-h1  {
-    font-size: 60px;  
+.about-wrapper {
+    display: flex;
+    gap: 40px;
+}
+.container .inner-title, .container .inner-second-title {
+    text-align: center;
+}
+.about-img {
+    width: 100%;
+    max-width: 500px;
+}
+.about-img img {
+    border-radius: 10px;
+}
+.about-info {
+    max-width: 600px;
+    width: 100%;
+}
+.about-descr h3 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.about-descr h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.about-descr h4 span {
+    color: var(--second-color);
+}
+.about-descr p {
+    font-size: var(--normal-font-size);
+    color: var(--third-color);
+    line-height: 1.5;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid var(--liner-color);
+}
+.about-info .inner-info-link {
+    width: 170px;
+    gap: 4px;
+}
+
+.professional-list {
+    display: flex;
+    column-gap: 30px;
+}
+
+.professional-list .list-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+    margin-bottom: 20px;
+}
+
+.list-item .number {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.list-item .text {
+    color: var(--third-color);
+    font-size: var(--small-font-size);
+}
+
+@media (max-width:1070px) {
+    .about-wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
 }

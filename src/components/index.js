@@ -1,6 +1,6 @@
 export {default as Header} from "./header/Header"
+export {default as Nav} from "./nav/Nav"
 export {default as Footer} from "./footer/Footer"
 export {default as Home} from "./home/Home"
 export {default as AboutMe} from "./aboutMe/AboutMe"
 export {default as SkillsInfo} from "./skills/SkillsInfo"
-export {default as Nav} from "./nav/Nav"
